@@ -1,5 +1,6 @@
 body{
-    background-image:url(3.jpeg);
+    height: 100vh;
+    background-image:url(./6.webp);
     background-size: cover;
     
 }
@@ -51,14 +52,37 @@ a{
     align-items: center;
     flex-direction: column;
     box-shadow: 0 0 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.712);
 }
 img{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 50px;
 }
 .card h1{
     margin-bottom: 40px;
+}
+.banner{
+    display: flex;
+    height: 100vh;
+    background-image: url(./4.gif);
+    background-size: cover;
+}
+.wc{
+    color: white;
+    padding: 50px;
+    margin: auto;
+    border: red;
+    border-radius: 50px;
+    background-color:rgba(0, 0, 0, 0.541);
+}
+/* about */
+.about{
+    padding: 10px;
+    color:gray;
+    background-color: black;
+}
+p{
+    margin-top: 5px;
 }
 
